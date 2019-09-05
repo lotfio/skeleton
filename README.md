@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/lotfio/skelton/docs/logo.png"  alt="skelton Preview">
+  <img src="https://github.com/lotfio/skeleton/blob/master/docs/logo.png" width="200"  alt="skelton Preview">
   <p align="center">
     <img src="https://img.shields.io/badge/Licence-MIT-ffd32a.svg" alt="License">
     <img src="https://img.shields.io/badge/PHP-7.1-808e9b.svg" alt="PHP version">
