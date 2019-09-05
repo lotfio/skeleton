@@ -1,0 +1,49 @@
+{
+    "name": "lotfio/skeleton",
+    "description": "Skeleton for PHP libraries, packages and components",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lotfio lakehal",
+            "email": "contact@lotfio.net"
+        }
+    ],
+
+    "require": {
+        "php": "^7.1"
+    },
+
+    "require-dev": {
+        "phpunit/phpunit": "^7.0"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Lotfio\\": "src/",
+            "Bin\\": "bin/"
+        }
+    },
+
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+
+    "minimum-stability": "dev",
+    "scripts": {
+        "post-update-cmd": "Bin\\Installer::postUpdate",
+
+        "post-package-install": [
+            "Bin\\Installer::postPackageInstall"
+        ],
+
+        "post-install-cmd": [
+            "Bin\\Installer::warmCache",
+            "phpunit"
+        ],
+        "post-create-project-cmd": [
+            "php -r \"copy('config/local-example.php', 'config/local.php');\""
+        ]
+    }
+}
