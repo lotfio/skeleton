@@ -16,8 +16,8 @@ namespace Bin;
 
 namespace Bin;
 
-use Composer\Script\Event;
 use Composer\Installer\PackageEvent;
+use Composer\Script\Event;
 
 class Installer
 {
