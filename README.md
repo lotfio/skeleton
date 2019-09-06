@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/lotfio/skeleton/blob/master/docs/logo.png" width="200"  alt="skelton Preview">
+  <img src="https://github.com/lotfio/skeleton/blob/master/docs/logo.png" width="200"  alt="skeleton Preview">
   <p align="center">
     <img src="https://img.shields.io/badge/Licence-MIT-ffd32a.svg" alt="License">
     <img src="https://img.shields.io/badge/PHP-7.1-808e9b.svg" alt="PHP version">
@@ -9,7 +9,7 @@
     <img src="https://github.styleci.io/repos/206574643/shield?branch=master" alt="StyleCi">
     </p>
   <p align="center">
-    <strong>:heart: PSR-4 compliant PHP package or library skelton :heart:</strong>
+    <strong>:heart: PSR-4 compliant PHP package or library skeleton :heart:</strong>
   </p>
 </p>
 
@@ -25,7 +25,7 @@ introduction
 
 ### :rocket: Installation & Use :
 ```php
-    composer create-project lotfio/skelton projectName
+    composer create-project lotfio/skeleton projectName
 ```
 
 ### :wrench: Configuration:
