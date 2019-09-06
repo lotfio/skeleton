@@ -15,8 +15,7 @@
 namespace Lotfio;
 
 /**
- * Class Skeleton
- *
+ * Class Skeleton.
  */
 class Skeleton
 {
@@ -34,6 +33,6 @@ class Skeleton
 
     public function negate()
     {
-        return new Skeleton(-1 * $this->amount);
+        return new self(-1 * $this->amount);
     }
 }
