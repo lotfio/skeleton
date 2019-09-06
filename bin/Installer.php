@@ -14,27 +14,32 @@ namespace Bin;
  *
  */
 
-use Composer\Script\Event;
+namespace Bin;
 
-/**
- * Installer
- *
- */
+use Composer\Script\Event;
+use Composer\Installer\PackageEvent;
+
 class Installer
 {
-    public static function postUpdate(Composer\Script\Event $event)
+    public static function postUpdate(Event $event)
     {
         $composer = $event->getComposer();
         // do stuff
     }
 
-    public static function postPackageInstall(Composer\Script\Event $event)
+    public static function postAutoloadDump(Event $event)
+    {
+        $vendorDir = $event->getComposer()->getConfig()->get('vendor-dir');
+        echo $vendorDir;
+    }
+
+    public static function postPackageInstall(PackageEvent $event)
     {
         $installedPackage = $event->getOperation()->getPackage();
         // do stuff
     }
 
-    public static function warmCache(Composer\Script\Event $event)
+    public static function warmCache(Event $event)
     {
         // make cache toasty
     }

@@ -10,7 +10,7 @@
     ],
 
     "require": {
-        "php": "^7.1"
+        "php": "^7.0"
     },
 
     "require-dev": {
@@ -31,19 +31,21 @@
     },
 
     "minimum-stability": "dev",
+
     "scripts": {
+
         "post-update-cmd": "Bin\\Installer::postUpdate",
 
-        "post-package-install": [
-            "Bin\\Installer::postPackageInstall"
+        "post-autoload-dump": [
+            "Bin\\Installer::postAutoloadDump"
         ],
 
         "post-install-cmd": [
-            "Bin\\Installer::warmCache",
-            "phpunit"
+            "Bin\\Installer::warmCache"
         ],
+
         "post-create-project-cmd": [
-            "php -r \"copy('config/local-example.php', 'config/local.php');\""
+            "@php -r \"copy('bin/.env.example', '.env');\""
         ]
     }
 }
