@@ -6,7 +6,7 @@
     <img src="https://img.shields.io/badge/Version-0.1.0-f53b57.svg" alt="Version">
     <img src="https://img.shields.io/badge/coverage-10%25-27ae60.svg" alt="Coverage">
     <img src="https://travis-ci.org/lotfio/skeleton.svg?branch=master" alt="Build Status">
-    <img src="https://github.styleci.io/repos/159562913/shield?branch=master" alt="StyleCi">
+    <img src="https://github.styleci.io/repos/206574643/shield?branch=master" alt="StyleCi">
     </p>
   <p align="center">
     <strong>:heart: PSR-4 compliant PHP package or library skelton :heart:</strong>
