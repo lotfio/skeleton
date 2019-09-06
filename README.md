@@ -24,8 +24,8 @@ introduction
 - Feature here
 
 ### :rocket: Installation & Use :
-```
-    composer require lotfio/skelton
+```php
+    composer create-project lotfio/skelton projectName
 ```
 
 ### :wrench: Configuration:
