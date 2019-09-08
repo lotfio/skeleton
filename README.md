@@ -45,7 +45,7 @@ introduction
 
 ### :computer: Contributing
 
-- Thank you for considering to contribute to ***Package***. All the contribution guidelines are mentioned [here](CONTRIBUTE.md).
+- Thank you for considering to contribute to ***Package***. All the contribution guidelines are mentioned [here](CONTRIBUTING.md).
 
 ### :page_with_curl: ChangeLog
 
